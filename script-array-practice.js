@@ -228,11 +228,92 @@ console.log("\nLast Movie in the Array:");
 console.log(lastMovie);
 
 //STEP 11
-// add
+
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame",
+  "Titanic",
+  "The Lord of the Rings"
+];
+
+// Create a new array called leastFavMovies
+const leastFavMovies = [
+  "Movie 43",
+  "Catwoman",
+  "The Last Airbender"
+];
+
+// Use concat() to merge the arrays into a single array called allMovies
+const allMovies = movies.concat(leastFavMovies);
+
+// Sort the merged array in reverse alphabetical order
+allMovies.sort().reverse();
+
+// Display the list in reverse sorted order
+console.log("Movies in Reverse Sorted Order:\n");
+
+for (const movie of allMovies) {
+  console.log(movie);
+}
+
+// Return and display the first item in the array
+const firstMovie = allMovies.shift();
+console.log("\nFirst Movie in the Array:");
+console.log(firstMovie);
 
 
 //STEP 12
 
+// Array containing both favorite and least favorite movies
+let movies = [
+  "The Dark Knight",
+  "Inception",
+  "Movie 43",
+  "Interstellar",
+  "Catwoman",
+  "The Matrix",
+  "The Last Airbender"
+];
+
+// List of movies you do not like
+const leastFavMovies = [
+  "Movie 43",
+  "Catwoman",
+  "The Last Airbender"
+];
+
+// Find the indices of the movies you do not like
+const badMovieIndices = [];
+
+for (let i = 0; i < movies.length; i++) {
+  if (leastFavMovies.includes(movies[i])) {
+    badMovieIndices.push(i);
+  }
+}
+
+console.log("Indices of movies I don't like:");
+console.log(badMovieIndices);
+
+// Movies to replace them with
+const replacementMovies = [
+  "Titanic",
+  "Avengers: Endgame",
+  "The Lord of the Rings"
+];
+
+// Replace the disliked movies using their indices
+for (let i = 0; i < badMovieIndices.length; i++) {
+  movies[badMovieIndices[i]] = replacementMovies[i];
+}
+
+console.log("\nUpdated movie list:");
+for (const movie of movies) {
+  console.log(movie);
+}
 //STEP 13
 
 //STEP 14
