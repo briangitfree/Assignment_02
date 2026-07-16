@@ -159,10 +159,76 @@ for (const movie of leastFavMovies) {
 }
 //STEP 9
 
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame",
+  "Titanic",
+  "The Lord of the Rings"
+];
 
+// Create a new array called leastFavMovies
+const leastFavMovies = [
+  "Movie 43",
+  "Catwoman",
+  "The Last Airbender"
+];
+
+// Use concat() to merge the arrays into a single array called allMovies
+const allMovies = movies.concat(leastFavMovies);
+
+// Sort the merged array in reverse alphabetical order
+allMovies.sort().reverse();
+
+// Display the list in reverse sorted order
+console.log("Movies in Reverse Sorted Order:\n");
+
+for (const movie of allMovies) {
+  console.log(movie);
+}
 //STEP 10
 
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame",
+  "Titanic",
+  "The Lord of the Rings"
+];
+
+// Create a new array called leastFavMovies
+const leastFavMovies = [
+  "Movie 43",
+  "Catwoman",
+  "The Last Airbender"
+];
+
+// Use concat() to merge the arrays into a single array called allMovies
+const allMovies = movies.concat(leastFavMovies);
+
+// Sort the merged array in reverse alphabetical order
+allMovies.sort().reverse();
+
+// Display the list in reverse sorted order
+console.log("Movies in Reverse Sorted Order:\n");
+
+for (const movie of allMovies) {
+  console.log(movie);
+}
+
+// Return and display the last item in the array
+const lastMovie = allMovies.pop();
+console.log("\nLast Movie in the Array:");
+console.log(lastMovie);
+
 //STEP 11
+
 
 //STEP 12
 
