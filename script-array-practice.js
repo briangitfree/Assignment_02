@@ -228,6 +228,7 @@ console.log("\nLast Movie in the Array:");
 console.log(lastMovie);
 
 //STEP 11
+// add
 
 
 //STEP 12
