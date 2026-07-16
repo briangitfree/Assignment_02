@@ -1,0 +1,177 @@
+
+
+
+
+
+//STEP 1
+
+// Create an array with five favorite movies
+const favoriteMovies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame"
+];
+
+// Display the second movie in the array
+console.log(favoriteMovies[1]);
+
+//STEP 2
+
+// Declare an array called movies using the Array constructor with a length of 5
+const movies = new Array(5);
+
+// Assign a favorite movie to each index
+movies[0] = "The Dark Knight";
+movies[1] = "Inception";
+movies[2] = "Interstellar";
+movies[3] = "The Matrix";
+movies[4] = "Avengers: Endgame";
+
+// Display the first movie in the array
+console.log(movies[0]);
+
+//STEP 3
+
+// Declare an array called movies using the Array constructor with a length of 5
+const movies = new Array(5);
+
+// Assign a favorite movie to each index
+movies[0] = "The Dark Knight";
+movies[1] = "Inception";
+movies[2] = "Interstellar";
+movies[3] = "The Matrix";
+movies[4] = "Avengers: Endgame";
+
+// Add a new movie into the 3rd position (index 2)
+movies.splice(2, 0, "Titanic");
+
+// Display the length of the array
+console.log(movies.length);
+
+//STEP 4
+
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame"
+];
+
+// Remove the first movie in the array using the delete operator
+delete movies[0];
+
+// Display the contents of the array
+console.log(movies);
+
+
+//STEP 5
+
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame",
+  "Titanic",
+  "The Lord of the Rings"
+];
+
+// Use a for/in loop to iterate through the array
+for (let index in movies) {
+  console.log(movies[index]);
+}
+
+//STEP 6
+
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame",
+  "Titanic",
+  "The Lord of the Rings"
+];
+
+// Use a for/of loop to iterate through the array
+for (const movie of movies) {
+  console.log(movie);
+}
+
+//STEP 7
+
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame",
+  "Titanic",
+  "The Lord of the Rings"
+];
+
+// Sort the array alphabetically
+movies.sort();
+
+// Use a for/of loop to iterate through the sorted array
+for (const movie of movies) {
+  console.log(movie);
+}
+
+//STEP 8
+
+// Declare an array called movies using literal notation
+const movies = [
+  "The Dark Knight",
+  "Inception",
+  "Interstellar",
+  "The Matrix",
+  "Avengers: Endgame",
+  "Titanic",
+  "The Lord of the Rings"
+];
+
+// Create a new array called leastFavMovies
+const leastFavMovies = [
+  "Movie 43",
+  "Catwoman",
+  "The Last Airbender"
+];
+
+// Display both arrays with the required formatting
+console.log("Movies I Like:\n");
+
+for (const movie of movies) {
+  console.log(movie);
+}
+
+console.log("\nMovies I Regret Watching:\n");
+
+for (const movie of leastFavMovies) {
+  console.log(movie);
+}
+//STEP 9
+
+
+//STEP 10
+
+//STEP 11
+
+//STEP 12
+
+//STEP 13
+
+//STEP 14
+
+//STEP 15
+
+//STEP 16
+
+//STEP 17
