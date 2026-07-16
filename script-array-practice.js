@@ -315,6 +315,18 @@ for (const movie of movies) {
 }
 //STEP 13
 
+// Multi-dimensional array of 5 favorite movies and their rankings
+let movies = [
+    ["The Shawshank Redemption", 1],
+    ["The Dark Knight", 2],
+    ["Inception", 3],
+    ["Interstellar", 4],
+    ["The Lord of the Rings: The Return of the King", 5]
+];
+
+// Display the entire array
+console.log(movies);
+
 //STEP 14
 
 //STEP 15
