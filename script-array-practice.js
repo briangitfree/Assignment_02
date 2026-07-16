@@ -228,7 +228,6 @@ console.log("\nLast Movie in the Array:");
 console.log(lastMovie);
 
 //STEP 11
-
 // Declare an array called movies using literal notation
 const movies = [
   "The Dark Knight",
