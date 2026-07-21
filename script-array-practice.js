@@ -1,8 +1,6 @@
 
 
-
-
-
+/*
 //STEP 1
 
 // Create an array with five favorite movies
@@ -334,3 +332,4 @@ console.log(movies);
 //STEP 16
 
 //STEP 17
+*/
