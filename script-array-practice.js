@@ -1,6 +1,8 @@
+// Programs: Script Array Practice
+// Comp 649 - JavaScript 2
+// Author: Brian Dinh
 
 
-/*
 //STEP 1
 
 // Create an array with five favorite movies
@@ -382,4 +384,4 @@ function getLargestNumber(arr) {
 
 let numbers = [12, 45, 7, 89, 23, 56, 100, 34, 67, 9];
 console.log(getLargestNumber(numbers));
-*/
+
