@@ -326,10 +326,60 @@ let movies = [
 console.log(movies);
 
 //STEP 14
+// Create a string array using literal notation
+let employees = ["ZAK", "JESSICA", "MARK", "FRED", "SALLY"];
+
+// Create an anonymous function and assign it to showEmployee
+let showEmployee = function(employeeArray) {
+    console.log("Employees:\n");
+
+    // Loop through the array and display each employee name
+    for (let i = 0; i < employeeArray.length; i++) {
+        console.log(employeeArray[i]);
+    }
+};
+
+// Call the function and pass the employees array as a parameter
+showEmployee(employees);
 
 //STEP 15
+// Function to filter out false, null, 0, and blank ("") values
+function filterValues(arr) {
+    // Use the filter() method to create a new array
+    return arr.filter(function(value) {
+        return value !== false &&
+               value !== null &&
+               value !== 0 &&
+               value !== "";
+    });
+}
+
+// Test Data
+console.log(filterValues([58, '', 'abcd', true, null, false, 0]));
 
 //STEP 16
 
+// Function to return a random item from an array
+function getRandomItem(arr) {
+    // Generate a random index between 0 and arr.length - 1
+    let randomIndex = Math.floor(Math.random() * arr.length);
+
+    // Return the item at the random index
+    return arr[randomIndex];
+}
+
+// Create a numeric array with 10 numbers
+let numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+// Call the function and display the random item
+console.log(getRandomItem(numbers));
+
 //STEP 17
+
+function getLargestNumber(arr) {
+    return Math.max(...arr);
+}
+
+let numbers = [12, 45, 7, 89, 23, 56, 100, 34, 67, 9];
+console.log(getLargestNumber(numbers));
 */
